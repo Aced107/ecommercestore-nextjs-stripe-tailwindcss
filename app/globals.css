@@ -4,5 +4,6 @@
 
 * {
   transition-duration: 200ms;
+  scroll-behavior: smooth;
   /* border: 1px solid black; */
 }
