@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import useCart from "./(store)/store";
 
 export default function ProductCard({ product }) {
@@ -22,7 +22,7 @@ export default function ProductCard({ product }) {
         <div className="md:flex items-center -mx-10">
           <div className="w-full md:w-1/2 px-10 mb-10 md:mb-0">
             <div className="relative">
-              <img
+              <Image
                 src={productInfo.images[0]}
                 className="w-full relative z-10"
                 alt={productInfo.name}
