@@ -24,8 +24,13 @@ export default function ProductCard({ product }) {
             <div className="relative">
               <Image
                 src={productInfo.images[0]}
-                className="w-full relative z-10"
                 alt={productInfo.name}
+                width={1200}
+                height={1200}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                }}
               />
               {/* <div className="border-4 border-yellow-200 absolute top-10 bottom-10 left-10 right-10 z-0"></div> */}
             </div>
